@@ -14,11 +14,11 @@ span {
 }
 
 body {
-  padding: 20px;
   width: 80%;
   margin: auto;
 }
 html {
+  margin-top: 10%;
   background-image: url(https://i.redd.it/ts7vuoswhwf41.jpg);
 }
 
