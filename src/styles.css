@@ -12,3 +12,16 @@ span {
   padding: 0.5rem;
   font-size: 2rem;
 }
+
+body {
+  width: 80%;
+  margin: auto;
+}
+html {
+  background-image: url(https://www.wallpapertip.com/wmimgs/51-517054_whatsapp-background-images-hd.jpg);
+}
+
+.App {
+  background-color: aliceblue;
+  padding: 2rem;
+}
