@@ -25,6 +25,7 @@ html {
 .App {
   background-color: aliceblue;
   padding: 2rem;
+  border-radius: 5%;
 }
 
 .emoji_list {
