@@ -26,3 +26,7 @@ html {
   background-color: aliceblue;
   padding: 2rem;
 }
+
+.emoji_list {
+  cursor: pointer;
+}

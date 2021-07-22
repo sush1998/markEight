@@ -69,9 +69,11 @@ export default function App() {
       <input onChange={inputChangeHandler} />
       <h2>{meaning}</h2>
       <h3>Emoji we know</h3>
-      {emojiWeKnow.map((emoji) => {
-        return <span onClick={() => emojiClickHandler(emoji)}>{emoji}</span>;
-      })}
+      <div className="emoji_list">
+        {emojiWeKnow.map((emoji) => {
+          return <span onClick={() => emojiClickHandler(emoji)}>{emoji}</span>;
+        })}
+      </div>
     </div>
   );
 }
